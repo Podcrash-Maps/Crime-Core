@@ -1,0 +1,1 @@
+# Prisoner item loadout (The default version of "Cops and Robbers 5" does not come with a loadout for prisoners)

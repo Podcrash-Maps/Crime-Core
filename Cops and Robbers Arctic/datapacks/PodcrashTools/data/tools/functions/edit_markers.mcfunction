@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:armor_stand,nbt={Tags:["podcrash_marker"]}] run data merge entity @s {Marker:0b,Invisible:0b,Invincible:1b,Gravity:0b}
+tellraw @a[tag=admin] {"text":"[PDT -> Markers swapped to editable state]"}

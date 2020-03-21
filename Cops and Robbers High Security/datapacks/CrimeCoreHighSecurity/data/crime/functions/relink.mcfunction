@@ -1,0 +1,3 @@
+execute at @e[type=minecraft:armor_stand,tag=crime_marker_teleportal_glass] run fill ~ ~ ~ ~ ~1 ~ minecraft:cyan_stained_glass
+title @a[tag=!ignore.global] actionbar {"text":"Teleportal destination reconfigured!","color":"dark_aqua"}
+execute at @e[type=minecraft:armor_stand,tag=crime_marker_teleportal_glass] run data merge block ~-1 ~ ~ {Text1:'{"text":"TELEPORTAL","bold":true}',Text2:'{"text":"-----"}',Text3:'{"text":"Destination:"}',Text4:'{"text":"Roof"}'}
